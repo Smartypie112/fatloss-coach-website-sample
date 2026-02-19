@@ -9,7 +9,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "/" },
     {
-      name: "Services",
+      name: "Programs",
       children: [
         { name: "1:1 Coaching", href: "/services/one-on-one" },
         { name: "Group Classes", href: "/services/group-classes" },
@@ -20,7 +20,7 @@ export default function Navbar() {
       ],
     },
     { name: "Results", href: "/results" },
-    { name: "About Me", href: "/about" },
+    { name: "About Coach", href: "/about" },
     { name: "FAQs", href: "/faqs" },
   ];
 
