@@ -34,7 +34,8 @@ export default function Booking() {
   // 👉 Simulate login success
   const handleLogin = () => {
     setShowPhoneInput(true);
-   alert("As its a sample so it won't work.")
+   alert("As its a sample so it won't work.");
+  navigate("/payment");
   };
 
   const handlePhoneSubmit = (e) => {
