@@ -17,12 +17,13 @@ import Payment from './components/Payment';
 import PaymentSuccess from './components/Payment-Success';
 import BodyAnalysisSection from './components/BodyAnalysisSection';
 import OneCompPageLayout from "./pages/OneCompPageLayout";
-
+import UpiPayment from './components/UpiPayment';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/upi-payment" element={<UpiPayment />} />
       <Route path="/booking/:serviceType" element={<Booking />} />
       <Route path="/about" element={<About />} />
       <Route path="/payment-success" element={<PaymentSuccess />} />

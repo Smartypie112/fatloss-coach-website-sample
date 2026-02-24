@@ -53,9 +53,8 @@ export default function BillPayment() {
 <button
   onClick={() => {
     console.log("Trigger Payment Gateway");
-   alert("As its a sample so it won't work.")
     // After payment success
-    navigate("/payment-success");
+    navigate("/upi-payment");
   }}
   className="px-12 py-4 rounded-full bg-pink-500 text-white text-lg hover:bg-pink-600 transition shadow-xl shadow-pink-200 font-semibold"
 >
